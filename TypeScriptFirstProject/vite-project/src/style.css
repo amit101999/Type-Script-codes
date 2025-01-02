@@ -1,0 +1,12 @@
+
+.container{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.todo{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
