@@ -3,6 +3,7 @@
 // import MyApp from './Components/MyApp'
 
 import USeContextHook from "./Components/USeContextHook"
+import UserReducerHook from "./Components/UserReducerHook"
 
 
 
@@ -12,7 +13,8 @@ const App = () => {
     <div>
       {/* <Form label={"search"} value={val} setter={setVal} /> */}
       {/* <MyApp /> */}
-      <USeContextHook />
+      {/* <USeContextHook /> */}
+      <UserReducerHook />
     </div>
   )
 }
